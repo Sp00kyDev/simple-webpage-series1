@@ -3,11 +3,12 @@
 
 
 
-
+/*CSS reset to remove default styling*/
 body, h1, h2, h3, h4, div, p{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -19,9 +20,12 @@ body{
     /*height: 100vh;*/
 }
 
+/*main content Styling BEGINS*/
+
+
 .wrapper{
     margin: 0 auto;
-    border: 4px dotted purple;
+    /*border: 4px dotted purple;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,28 +33,51 @@ body{
 }
 
 .left-section{
-    width: 50%;
+    width: 45%;
     /*padding: 30px, 15px, 50px, 80px;*/
-    border: 3px solid black;
+    /*border: 3px solid black;*/
+    margin-right: 2.5%;
     margin-top: 60px;
     margin-bottom: 70px;
     
 }
 
 .left-section h1{
-    padding: 15 25 25 25;
+    padding: 15 25 12.5 25;
     font-family: 'Anton', 'sans-serif' ; 
     line-height: 1.05em; /*37.5px;*/
     font-size: 3.25em;
     color: #2A2A28;
 }
 
+.bullet-styling{
+    padding: 12.5 25 100 40;
+    font-size: 1.3em;
+    color: #343d46;
+    word-spacing: 2px;
+    line-height: 1.35em;
+}
+
+
+ .lineStyle{
+     /*width: 75%*/
+     color: black; /*change colour to a more light grey*/
+ }   
+
+
+
+.social-styling{
+    list-style-type: none;
+}
+
+
 
 .right-section{
-    width: 50%;
+    width: 45%;
    
     /*margin: 310px, 80px, 50px, 15px;*/
-    border: 3px solid black;
+   /* border: 3px solid black;*/
+   margin-left: 2.5%;
     margin-top: 60px;
     margin-bottom: 70px;
 }
@@ -59,6 +86,9 @@ img{
     width: 100%; /*589px;*/
     height: 724px;
 }
+
+
+/*main content styling ENDS*/
 
 
 .footer{
