@@ -30,6 +30,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     width: 90%;
+    margin-bottom: 100px;
 }
 
 .left-section{
@@ -37,7 +38,7 @@ body{
     /*padding: 30px, 15px, 50px, 80px;*/
     /*border: 3px solid black;*/
     margin-right: 2.5%;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 70px;
     
 }
@@ -55,19 +56,31 @@ body{
     font-size: 1.3em;
     color: #343d46;
     word-spacing: 2px;
-    line-height: 1.35em;
+    line-height: 1.5em;
+    padding-bottom: 150px;
 }
 
 
  .lineStyle{
      /*width: 75%*/
-     color: black; /*change colour to a more light grey*/
+     color: #64645f;
  }   
 
 
 
 .social-styling{
     list-style-type: none;
+   
+}
+
+.social-styling li {
+    padding: 10px;
+    margin-left: 420px;
+}
+
+.social-styling li a{
+  text-decoration: none;
+  color: #2A2A28;
 }
 
 
@@ -78,7 +91,7 @@ body{
     /*margin: 310px, 80px, 50px, 15px;*/
    /* border: 3px solid black;*/
    margin-left: 2.5%;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 70px;
 }
 
@@ -87,12 +100,39 @@ img{
     height: 724px;
 }
 
+.captionImg{
+    font-size: 1.15em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+    line-height: 1.5em;
+    width: 75%;
+    padding-top: 25px;
+    margin-left: 12.5%;
+}
+
 
 /*main content styling ENDS*/
 
 
 .footer{
-    background-color: rebeccapurple;
+    font-size: .9em;
+    background-color: #293038; 
+    height: 100px;
+    text-align: center;
+    padding-top: 45px;
+    color: white;
+    
+}
+
+.footer a{
+    color: #e6c55c;
 }
 
 
+
+/*
+-edit fixed measurements
+-organise css
+-make it responsive
+
+*/
